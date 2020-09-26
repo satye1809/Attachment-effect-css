@@ -1,0 +1,40 @@
+div{
+  
+  color:white;
+  border:2px solid red;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.bigimage{
+background:url('../image/retro.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+.smallimage{
+background:url('../image/radi.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+.folderimage{
+background:url('../image/folderimg.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
